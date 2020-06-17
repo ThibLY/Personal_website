@@ -1,0 +1,89 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="source/style_web.css" />
+    <title>Thibaud L'Yvonnet Bio-informatique</title>
+  </head>
+  <body>
+      <header>
+        <div>
+          <img src="assets/photo_identite_Thi.png" alt="Ce à quoi je ressemble" />
+        </div>
+        <h1 id="Top_page">Thibaud L'Yvonnet diplômé en Bio-informatique</h1>
+      </header>
+    <div id="main_info">
+      <nav>
+        <h4 class="Mini_tit">Navigation</h4>
+        <ul id="list_nav">
+          <li><a href="Accueil.html">Accueil</a></li>
+          <li><a href="Master1.html">Master 1</a></li>
+          <li><a href="Master2.html" id="page_act">Master 2</a></li>
+        </ul>
+      </nav>
+      <section id="Troisieme">
+        <h3 id="tit_article">Stage de Master 2 </h3>
+        <article id="Abstract">
+          <h4>Modélisation et Vérification Formelle de la Composition
+            d’Archétypes</h4>
+
+          <p>Dans la littérature, les réseaux de neurones sont souvent
+            représentés comme des graphes dont chaque nœud symbolise un neurone
+            et chaque arc une connexion synaptique. Quelques graphes de neurones
+            spécifiques ont une structure biologiquement pertinente et nous les
+            appelons des archétypes. Six d'entre eux ont pu être caractérisés et
+            validés en utilisant les méthodes formelles dans le cadre du projet
+            MS&amp;N du laboratoire I3S.</p>
+          <p><img src="assets/tableau-archetype-base.png" alt="Les différents archétypes de base" /></p>
+          <p>Dans cette étude, nous nous sommes attaqués à l'étape suivante de
+            ce projet de recherche en étudiant les propriétés de leur couplage.
+            Dans ce but, nous avons utilisé le modèle "Leaky Integrate and Fire"
+            (LIF) et le langage de programmation synchrone Lustre afin
+            d'implémenter les archétypes neuronaux et formaliser leur
+            comportement attendu. Nous avons ensuite utilisé un "model checker"
+            compatible appelé kind2 afin de valider ces comportements de manière
+            automatisée.</p>
+          <p><img src="assets/comparaison.png" alt="Comparaison des comportement « Winner takes all »" /></p>
+          <p>En utilisant ces outils, nous avons validé de nouvelles propriétés
+            associé au neurone simple, à des archétypes déjà testés et pour
+            certains de leur couplage. Avec ces résultats, nous avons pu voir
+            qu'un simple neurone LIF est restreint dans son comportement, mais
+            une fois mis en réseau, la quantité de comportements possibles
+            augmente. Lorsque ces archétypes sont couplés, soit leur
+            comportement est sensiblement modulé (comme l'extension d'une
+            période d'oscillation), soit il laisse place à un tout nouveau
+            comportement.</p>
+          <p><img src="assets/nb_patt_assoc_poids_+classe_res.png" alt="Histogramme du comportement des neurones en fonction du motif reçu en entrée." /></p>
+          <p>Nous pouvons aussi observer que différents  couplages d'archétypes
+            peuvent avoir exactement le même comportement. Nos résultats
+            montrent aussi que l'utilisation d'un modèle dépendant du codage
+            temporel est plus appropriéqu'un modèle dépendant codage à taux
+            d'émission pour ce genre d'étude.</p>
+            <p id="Slides">
+              <a href="assets/Slides_Thibaud_L_Yvonnet.pdf" download="Diapositives M2 de Thibaud L'Yvonnet" id="Bouton">Télécharger le diaporama</a>
+            </p>
+
+        </article>
+        <aside id="Resume">
+        </aside>
+      </section>
+      <section id="info_sup">
+        <h4 class="Mini_tit"> Informations</h3>
+          <ul>
+            <li>I3S<br />
+              Modèles Discrets pour les Systèmes Complexes (MDSC)<br /><br />
+              Adresse : Euclide B, 2000 Route des Lucioles,
+              06900 Sophia Antipolis <br /><br />
+              Tutrice : Elisabetta De Maria</li>
+          </ul>
+      </section>
+     </div>
+     <footer>
+         <p><a href="assets/CV_Thibaud_L_Yvonnet_web.pdf" download="CV de Thibaud L'Yvonnet" id="Bouton_foot">Accéder à mon CV</a></p>
+         <aside id="copyright">
+           <p>@2017</p>
+         </aside>
+     </footer>
+  </body>
+</html>

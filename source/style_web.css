@@ -1,0 +1,358 @@
+body
+{
+  background: url('../assets/fond_web.jpeg');
+  background-attachment:fixed;
+}
+
+#Top_page
+{
+  width:68%;
+/*  width: 862px;*/
+  border: 40px 80px ;
+  border-radius: 80px/60px;
+  color:rgb(235,235,235)/*(88,114,207)*/;
+  background-color: rgb(188,230,254);
+  text-align: center;
+  padding: 12px; /* Marge intérieure de 12px */
+  margin: auto; /* On peut donc demander à ce que le bloc soit centré avec auto */
+  box-shadow: 4px 4px 10px black;
+  text-shadow: 2px 2px 4px black ;
+}
+
+header
+{
+  width: auto;
+  max-width: 1500px;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  height: 250px;
+  border-radius: 5px;
+  background: url('../assets/Background1.jpg');
+  position: relative;
+  box-shadow: 0px 4px 4px #1c1a19;
+  display: flex;
+}
+
+#main_info
+{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+nav
+{
+  width: 15%;
+  min-width: 150px;
+  border: 6px 8px;
+  border-radius: 10px/10px;
+  background-color: rgb(235,235,235);
+  text-align: justify;
+  padding: 10px; /* Marge intérieure de 12px */
+  box-shadow: 0px 4px 4px black;
+  margin: auto;
+  margin-bottom: auto;
+  position: fixed; /* Make it stick, even on scroll */
+  overflow: auto; /* Enable scrolling if the sidenav has too much content */
+  z-index: 1;
+}
+
+#list_nav
+{
+  list-style-type: none;
+  border: 1px solid #555;
+  margin-top: 10px
+  margin: 0;
+  padding: 0;
+  background: url("../assets/nav_fond.jpg");
+}
+
+#list_nav li
+{
+  text-align: center;
+  border-bottom: 1px solid #555;
+}
+
+#lis_nav li:last-child
+{
+  border-bottom: none;
+}
+
+#list_nav li a
+{
+  display: block;
+  color: #000;
+  padding: 8px 0 8px 16px;
+  text-decoration: none;
+}
+
+#list_nav li a:hover
+{
+  background: url("../assets/nav_fond2.jpg");
+  color: white;
+}
+
+#list_nav li a:active
+{
+  background: url("../assets/nav_fond3.jpg");
+  color: white;
+}
+
+#page_act
+{
+  background: url("../assets/nav_fond4.jpg");
+  color: white;
+}
+
+.Mini_tit,#tit_article
+{
+  border: 4px 8px ;
+  border-radius: 80px/60px;
+  background-color: rgb(184,184,184);
+  text-align: center;
+  padding: 12px; /* Marge intérieure de 12px */
+  margin: auto; /* On peut donc demander à ce que le bloc soit centré avec auto */
+  box-shadow: 0px 2px 10px black;
+}
+
+.Mini_tit
+{
+  width: 80%;
+  min-width: 50px;
+  /*width: 170px;*/
+}
+
+#tit_article
+{
+  width: 30%;
+  min-width: 150px;
+  /*width: 350px;*/
+}
+
+section
+{
+  display: flex;
+  width: 60%;
+  max-width: 800px;
+  min-width: 660px;
+  border: 6px 8px;
+  border-radius: 10px/10px;
+  background-color: rgb(235,235,235);
+  text-align: center;
+  padding: 10px;
+  box-shadow: 0px 4px 4px #1c1a19;
+  margin: auto; /* On peut donc demander à ce que le bloc soit centré avec auto */
+  margin-bottom: 20px;
+}
+
+#Principal
+{
+  margin: auto;
+  margin-bottom: 20px
+  position: relative;
+  z-index: 2;
+}
+
+#Second,#Troisieme
+{
+  flex-direction: column;
+  position: relative;
+  z-index: 2;
+}
+#Second
+{
+  margin-top: 20px;
+}
+
+#info_sup
+{
+  flex-direction: column;
+  width: 200px;
+  min-width: 200px;
+  height: 250px;
+  border-radius: 10px/10px;
+  background-color: rgb(235,235,235);
+  font-size: small;
+  text-align: center;
+  padding: 10px; /* Marge intérieure de 12px */
+  box-shadow: 0px 4px 4px black;
+  margin: auto;
+  position: fixed; /* Make it stick, even on scroll */
+  right:10px;
+  overflow: auto; /* Enable scrolling if the sidenav has too much content */
+}
+
+#info_sup ul li
+{
+  margin-bottom: 10px;
+  position: relative;
+  left:-10px
+}
+
+article
+{
+  width: 95%;
+  max-width: 700px;
+  border: 6px 8px;
+  border-radius: 10px/10px;
+  background-color: rgb(212,212,212);
+  text-align: center;
+  padding: 10px; /* Marge intérieure de 12px */
+  margin: 20px; /* On peut donc demander à ce que le bloc soit centré avec auto */
+}
+
+#Abstract
+{
+  text-align: justify;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#Presentation_Cursus, #Presentation_Hobby
+{
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#Abstract h4
+{
+  text-align: center;
+}
+
+aside
+{
+  width: 200px;
+  border: 6px 8px;
+  border-radius: 10px/10px;
+  background-color: rgb(235,235,235);
+  text-align: center;
+  padding: auto; /* Marge intérieure de 12px */
+  margin: auto; /* On peut donc demander à ce que le bloc soit centré avec auto */
+}
+
+#Bouton
+{
+  display: block;
+  width: 80%;
+/*  width: 150px;*/
+  border-radius: 80px/60px;
+  background-color: rgb(86,201,240);
+  background: linear-gradient( rgb(86,201,240), rgb(43,93,110));
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  text-shadow: 0px 1px 0px rgba( 255, 255, 255, 0.2);
+  padding: 10px;
+  margin: auto; /* On peut donc demander à ce que le bloc soit centré avec auto */
+}
+
+#Bouton:hover
+{
+  background-color: rgb(158,219,240);
+  background: linear-gradient( rgb(158,219,240), rgb(136,177,191));
+  color: white;
+}
+
+#Bouton:active
+{
+  background-color: rgb(41,90,107);
+  background: linear-gradient(rgb(41,90,107), rgb(57,132,158));
+  color: black;
+  box-shadow: 1px 1px 10px black inset,
+            0 1px 0 rgba( 255, 255, 255, 0.4);
+}
+
+#Bouton_foot
+{
+  display: block;
+  position:relative;
+  bottom: 5px;
+  width: 140px;
+  border-radius: 4px/6px;
+  background-color: rgb(86,201,240);
+  background: linear-gradient( rgb(86,201,240), rgb(43,93,110));
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  text-shadow: 0px 1px 0px rgba( 255, 255, 255, 0.2);
+  padding: 10px;
+  margin: auto; /* On peut donc demander à ce que le bloc soit centré avec auto */
+}
+
+#Bouton_foot:hover
+{
+  background-color: rgb(158,219,240);
+  background: linear-gradient( rgb(158,219,240), rgb(136,177,191));
+  color: white;
+}
+
+#Bouton_foot:active
+{
+  background-color: rgb(41,90,107);
+  background: linear-gradient(rgb(41,90,107), rgb(57,132,158));
+  color: black;
+  box-shadow: 1px 1px 10px black inset,
+            0 1px 0 rgba( 255, 255, 255, 0.4);
+}
+
+footer
+{
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  max-width: 820px;
+  min-width: 680px;
+  height: 50px;
+  border: 6px 8px;
+  border-radius: 10px/10px;
+  background-color: rgb(235,235,235);
+  text-align: left;
+  font-size: small;
+  box-shadow: 0px 4px 4px #1c1a19;
+  margin: auto; /* On peut donc demander à ce que le bloc soit centré avec auto */
+}
+
+footer section
+{
+  text-align: center;
+  position:none;
+  width: auto;
+  height: 40px;
+  max-width: 800px;
+  min-width: 660px;
+  background-color: rgb(235,235,235);
+  box-shadow: none;
+  padding: 10px;
+  margin: auto; /* On peut donc demander à ce que le bloc soit centré avec auto */
+  margin-bottom: 20px;
+
+/*  width: 50px;
+  height: 10px;
+  left: 200px;
+  padding: 0px;
+  box-shadow: none;
+  margin: auto; /* On peut donc demander à ce que le bloc soit centré avec auto */
+}
+
+#Bouton_foot
+{
+  width: 95%;
+  border: 6px 8px;
+  position: relative;
+  left: 270px;
+  bottom: 25px;
+  border-radius: 10px/10px;
+  background-color: rgb(235,235,235);
+  text-align: center;
+  padding: 10px; /* Marge intérieure de 12px */
+  margin: 20px; /* On peut donc demander à ce que le bloc soit centré avec auto */
+}
+
+#copyright
+{
+  position: relative;
+  left: 32%;
+  width: 40px;
+}
