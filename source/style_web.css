@@ -2,11 +2,14 @@ body
 {
   background: url('../assets/fond_web.jpeg');
   background-attachment:fixed;
+  min-width: 1250px;
+  max-width: 1250px;
+  margin:auto;
 }
 
 #Top_page
 {
-  width:68%;
+  width:75%;
 /*  width: 862px;*/
   border: 40px 80px ;
   border-radius: 80px/60px;
@@ -43,8 +46,9 @@ header
 
 nav
 {
-  width: 15%;
-  min-width: 150px;
+/*  width: 15%;
+  min-width: 150px;*/
+  width: 200px;
   border: 6px 8px;
   border-radius: 10px/10px;
   background-color: rgb(235,235,235);
@@ -133,8 +137,8 @@ nav
 section
 {
   display: flex;
-  width: 60%;
-  max-width: 800px;
+  width: 80%;
+  max-width: 900px;
   min-width: 660px;
   border: 6px 8px;
   border-radius: 10px/10px;
@@ -158,6 +162,7 @@ section
 {
   flex-direction: column;
   position: relative;
+  right:-100px;
   z-index: 2;
 }
 #Second
@@ -171,6 +176,7 @@ section
   width: 200px;
   min-width: 200px;
   height: 250px;
+  border: 6px 8px;
   border-radius: 10px/10px;
   background-color: rgb(235,235,235);
   font-size: small;
@@ -178,9 +184,12 @@ section
   padding: 10px; /* Marge intérieure de 12px */
   box-shadow: 0px 4px 4px black;
   margin: auto;
+  margin-bottom: auto;
   position: fixed; /* Make it stick, even on scroll */
-  right:10px;
+  top: 600px;
+  /*transform: translate(-30%);/*
   overflow: auto; /* Enable scrolling if the sidenav has too much content */
+  z-index: 3;
 }
 
 #info_sup ul li
