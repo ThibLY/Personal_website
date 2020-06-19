@@ -153,8 +153,9 @@ section
 #Principal
 {
   margin: auto;
-  margin-bottom: 20px
+  margin-bottom: 20px;
   position: relative;
+  right: -100px;
   z-index: 2;
 }
 
