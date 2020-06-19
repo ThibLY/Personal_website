@@ -9,7 +9,7 @@ body
 
 #Top_page
 {
-  width:75%;
+  width:61%;
 /*  width: 862px;*/
   border: 40px 80px ;
   border-radius: 80px/60px;
@@ -190,7 +190,7 @@ section
   top: 600px;
   /*transform: translate(-30%);*/
   overflow: auto; /* Enable scrolling if the sidenav has too much content */
-  z-index: 3;
+  z-index: 1;
 }
 
 #info_sup ul li
