@@ -311,9 +311,9 @@ footer
 {
   display: flex;
   flex-direction: row;
-  width: 60%;
-  max-width: 820px;
-  min-width: 680px;
+  width: 80%;
+  max-width: 920px;
+  min-width: 660px;
   height: 50px;
   border: 6px 8px;
   border-radius: 10px/10px;
@@ -322,6 +322,7 @@ footer
   font-size: small;
   box-shadow: 0px 4px 4px #1c1a19;
   margin: auto; /* On peut donc demander à ce que le bloc soit centré avec auto */
+  z-index: 2
 }
 
 footer section
@@ -348,9 +349,6 @@ footer section
 
 footer
 {
-  width: 80%;
-  max-width: 920px;
-  min-width: 660px;
   position: relative;
   right: -100px;
 }
